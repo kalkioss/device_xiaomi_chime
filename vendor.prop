@@ -161,6 +161,9 @@ persist.vendor.dpmhalservice.enable=1
 drm.service.enabled=true
 media.mediadrmservice.enable=true
 
+# Enable zygote critical window.
+zygote.critical_window.minute=10
+
 # Fingerprint
 persist.vendor.qfp=false
 
