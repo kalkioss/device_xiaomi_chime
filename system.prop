@@ -93,6 +93,12 @@ persist.data.df.ul_mode=5
 persist.data.wda.enable=true
 persist.rmnet.data.enable=true
 
+# SkiaGL Threaded
+debug.renderengine.backend=skiaglthreaded
+debug.hwui.renderer=skiagl
+renderthread.skia.reduceopstasksplitting=true
+debug.hwui.skia_atrace_enabled=false
+
 # SSR
 persist.vendor.ssr.restart_level=ALL_ENABLE
 persist.vendor.ssr.enable_ramdumps=1
