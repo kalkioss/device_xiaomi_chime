@@ -227,8 +227,8 @@ ro.hardware.keystore_desede=true
 keyguard.no_require_sim=true
 
 # Media
-debug.stagefright.ccodec=1
-debug.stagefright.omx_default_rank=0
+debug.stagefright.ccodec=4
+debug.stagefright.omx_default_rank=1000
 media.aac_51_output_enabled=true
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 media.stagefright.enable-aac=true
