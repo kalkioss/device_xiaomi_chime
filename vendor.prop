@@ -155,6 +155,9 @@ media.mediadrmservice.enable=true
 # Enable stm events
 persist.debug.coresight.config=stm-events
 
+# Enable zygote critical window.
+zygote.critical_window.minute=10
+
 # Fingerprint
 persist.vendor.qfp=false
 
